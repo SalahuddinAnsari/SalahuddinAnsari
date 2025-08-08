@@ -1,61 +1,115 @@
-<!-- GitHub Profile README for Md Salahuddin Ansari -->
-<h1 align="center">
-  Hey 👋, I'm <span style="color:#00FFFF;">Md Salahuddin Ansari</span>
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salahuddin Ansari - Portfolio</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #0a0a0a;
+        color: #fff;
+        scroll-behavior: smooth;
+    }
+    header {
+        text-align: center;
+        padding: 50px 20px;
+        background: linear-gradient(135deg, #6a00ff, #9a4dff);
+    }
+    header img {
+        width: 150px;
+        border-radius: 50%;
+        border: 4px solid #9a4dff;
+        transition: transform 0.3s ease;
+    }
+    header img:hover {
+        transform: scale(1.05);
+    }
+    h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+    }
+    h2 {
+        color: #9a4dff;
+    }
+    nav {
+        text-align: center;
+        margin: 20px 0;
+    }
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    nav a:hover {
+        color: #9a4dff;
+    }
+    section {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+    section.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .skills span {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background: #1a1a1a;
+        border: 1px solid #9a4dff;
+        border-radius: 20px;
+        transition: background 0.3s ease;
+    }
+    .skills span:hover {
+        background: #9a4dff;
+        color: #0a0a0a;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #1a1a1a;
+    }
+    button {
+        padding: 10px 20px;
+        background: #9a4dff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        transition: background 0.3s ease;
+    }
+    button:hover {
+        background: #6a00ff;
+    }
+</style>
+</head>
+<body>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Aspiring+Data+Analyst;Electrical+Engineer;Tech+Explorer alt="Typing SVG" />
-</p>
+<header>
+    <img src="your-photo.jpg" alt="Salahuddin Ansari">
+    <h1>Salahuddin Ansari</h1>
+    <h2>Web Developer & UI Designer | Data Analyst | Electrical Engineer</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
----
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am an Electrical Engineer, graduated from Aliah University, New Town. 
+    An enthusiastic learner skilled in Microsoft Office, Advanced Excel, HTML, CSS, Java, SQL, Python, Power BI, and UX/UI Design. 
+    I am keenly interested in data analysis and creative web development.</p>
+</section>
 
-## 🚀 About Me
-🎓 Electrical Engineering student at Aliah University  
-💻 Skills: Advanced Excel, Data Analysis, UI Design basics, Web Development basics  
-🌐 Languages: English, Hindi, Bengali, Nepali (basic)  
-📍 From Kolkata, India  
-
----
-
-## 🛠️ Skills & Tools
-<p align="center">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Data%20Analytics-000000?style=for-the-badge&logo=google-analytics&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Customer%20Support-FF4500?style=for-the-badge&logo=headset&logoColor=white" />
-</p>
-
----
-
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SalahuddinAnsari&show_icons=true&theme=radical" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SalahuddinAnsari&theme=radical" />
-</p>
-
----
-
-## 🌟 Featured Projects
-| Project | Description | Link |
-|---------|-------------|------|
-| Solar Wireless Charging Road | A project under Dr. Sharmistha, combining renewable energy & wireless charging | *Coming Soon* |
-| Portfolio Website | Personal portfolio with hover effects & animations | *Coming Soon* |
-
----
-
-## 🌐 Connect With Me
-<p align="center">
-  <a href="https://www.linkedin.com/in/md-salahuddin-ansari-b725a7229" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:salahuddinansari14032004@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>💡 "The future belongs to those who learn more skills and combine them in creative ways."</i>
-</p>
+<section id="skills" class="skills">
