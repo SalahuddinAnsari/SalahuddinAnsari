@@ -57,5 +57,5 @@
 ---
 
 <p align="center">
-  "💡" <i> "The future belongs to those who learn more skills and combine them in creative ways."</i>
+  💡<i> "The future belongs to those who learn more skills and combine them in creative ways."</i>
 </p>
